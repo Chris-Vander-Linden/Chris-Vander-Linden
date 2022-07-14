@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Chris-Vander-Linden
 - 👀 I’m interested in front end web development.
-- 🌱 I’m currently learning React and Dart SASS.
+- 🌱 I’m currently learning ReactJS, Dart Sass, TypeScript, and more.
 - 💞️ I’m looking to collaborate on all front end projects.
 - 📫 How to reach me vandch02@luther.edu
 
