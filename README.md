@@ -1,3 +1,5 @@
+https://www.codewars.com/users/Chris-Vander-Linden/badges/large
+
 - 👋 Hi, I’m @Chris-Vander-Linden
 - 👀 I’m interested in full stack software development.
 - 🌱 I’m currently learning VueJS, ReactJS, Dart Sass, TypeScript, and more.
