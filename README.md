@@ -1,2 +1,2 @@
-[Mozilla](https://phabricator.services.mozilla.com/p/cvl123abc/)
-[![image](https://www.codewars.com/users/Chris-Vander-Linden/badges/large)](https://www.codewars.com/users/Chris-Vander-Linden)
+[![My Mozilla Contributions](https://www.mozilla.org/media/img/trademarks/mozilla-logo-tm.37d6edeabfd7.svg)](https://phabricator.services.mozilla.com/p/cvl123abc/)
+[![CodeWars](https://www.codewars.com/users/Chris-Vander-Linden/badges/large)](https://www.codewars.com/users/Chris-Vander-Linden)
