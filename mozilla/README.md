@@ -1,9 +1,21 @@
 # Mozilla Contributions
 
-Last updated: 2026-03-11
-
 This page highlights selected contributions to Firefox DevTools and related modules.  
 Work includes shared component architecture, legacy widget fixes, and codebase modernization.
+
+Last updated: 07-17-2026
+
+**Latest landed Firefox commits:**
+
+https://github.com/mozilla-firefox/firefox/commits?author=Chris-Vander-Linden&since=2024-03-01
+
+**Bugzilla activity:**
+
+https://bugzilla.mozilla.org/user_profile?user_id=766005
+
+**Phabricator revisions:**
+
+https://phabricator.services.mozilla.com/p/cvl123abc/
 
 ---
 
