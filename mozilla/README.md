@@ -80,6 +80,22 @@ The work includes:
 
 A landed commit link will be added after the revision reaches the official Firefox `main` branch.
 
+## Before Fix (Network panel uses basic searchbar)
+
+![Before Fix](docs/before.png)
+
+## After Fix (Network panel uses shared searchbar)
+
+![After Fix (coming soon)](docs/demo.mov)
+
+## Architecture
+
+![Component Diagram](docs/IMG_8162.jpeg)
+
+## Search Flow
+
+![Sequence Diagram](docs/IMG_8160.jpeg)
+
 ---
 
 # TableWidget / Legacy DevTools Work
