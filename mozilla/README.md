@@ -80,6 +80,25 @@ The work includes:
 
 A landed commit link will be added after the revision reaches the official Firefox `main` branch.
 
+## Follow-up Cleanup
+
+## Bug 2058383 — Remove unused CloseButton prop from the Debugger FileSearch wrapper
+
+Commit: https://github.com/mozilla-firefox/firefox/commit/c52a29596e2c
+Bugzilla: https://bugzilla.mozilla.org/show_bug.cgi?id=2058383
+
+Follow-up cleanup discovered while integrating the shared FileSearchBar into NetMonitor.
+
+The Debugger wrapper imported `CloseButton` and passed it to `FileSearchBar`, even though the shared component did not consume that prop. The unused import and prop were removed so the wrapper only exposes values that are part of the shared component's actual interface.
+
+### Bug 2063466 — FileSearchBar nav button hover background overlaps focus outline
+
+Bugzilla: https://bugzilla.mozilla.org/show_bug.cgi?id=2063466
+
+Identified a shared UI issue where the FileSearchBar navigation-button hover background visually interferes with the focus outline. The issue reproduces in both the Debugger and NetMonitor integrations because it originates in the shared component.
+
+Status: In progress
+
 ## Before Fix (Network panel uses basic searchbar)
 
 ![Before Fix](docs/before.png)
@@ -114,7 +133,18 @@ Phabricator: https://phabricator.services.mozilla.com/D244451
 
 Commit: https://github.com/mozilla-firefox/firefox/commit/e3d815475858  
 Bugzilla: https://bugzilla.mozilla.org/show_bug.cgi?id=2015241  
-Phabricator: https://phabricator.services.mozilla.com/D283630  
+Phabricator: https://phabricator.services.mozilla.com/D283630
+
+## Bug 2058381 — Use a linear scan to detect TableWidget height mismatches
+
+Commit: https://github.com/mozilla-firefox/firefox/commit/65b309b28381
+Bugzilla: https://bugzilla.mozilla.org/show_bug.cgi?id=2058381
+
+Follow-up performance cleanup to the TableWidget row-height synchronization work.
+
+The existing implementation collected cell heights, sorted the values, and then scanned for mismatches. Since the code only needed to determine whether all row heights were equal, the sort was unnecessary.
+
+The updated implementation compares heights in a single linear scan, reducing the mismatch check from O(n log n) to O(n) while preserving the existing synchronization behavior.
 
 ---
 
