@@ -86,7 +86,7 @@ A landed commit link will be added after the revision reaches the official Firef
 
 ## After Fix (Network panel uses shared searchbar)
 
-![After Fix (coming soon)](docs/demo.mov)
+![After Fix](docs/after.png)
 
 ## Architecture
 
