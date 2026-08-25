@@ -84,8 +84,9 @@ A landed commit link will be added after the revision reaches the official Firef
 
 ## Bug 2058383 — Remove unused CloseButton prop from the Debugger FileSearch wrapper
 
-Commit: https://github.com/mozilla-firefox/firefox/commit/c52a29596e2c
-Bugzilla: https://bugzilla.mozilla.org/show_bug.cgi?id=2058383
+Commit: https://github.com/mozilla-firefox/firefox/commit/c52a29596e2c  
+Bugzilla: https://bugzilla.mozilla.org/show_bug.cgi?id=2058383  
+Phabricator: https://phabricator.services.mozilla.com/D314570
 
 Follow-up cleanup discovered while integrating the shared FileSearchBar into NetMonitor.
 
@@ -94,6 +95,7 @@ The Debugger wrapper imported `CloseButton` and passed it to `FileSearchBar`, ev
 ### Bug 2063466 — FileSearchBar nav button hover background overlaps focus outline
 
 Bugzilla: https://bugzilla.mozilla.org/show_bug.cgi?id=2063466
+Phabricator: https://phabricator.services.mozilla.com/D318823
 
 Identified a shared UI issue where the FileSearchBar navigation-button hover background visually interferes with the focus outline. The issue reproduces in both the Debugger and NetMonitor integrations because it originates in the shared component.
 
@@ -139,6 +141,7 @@ Phabricator: https://phabricator.services.mozilla.com/D283630
 
 Commit: https://github.com/mozilla-firefox/firefox/commit/65b309b28381
 Bugzilla: https://bugzilla.mozilla.org/show_bug.cgi?id=2058381
+Phabricator: https://phabricator.services.mozilla.com/D314566
 
 Follow-up performance cleanup to the TableWidget row-height synchronization work.
 
